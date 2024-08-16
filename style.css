@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+
+body {
+    background: url('imagens/fundoescolar.jpg') top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+main {
+    max-width: 1000px;
+    min-width: 150px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+section#tema img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#tema {
+    text-align: right;
+}
+
+section#tema img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
+    transition: transform .3s, border 1s;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header#iff {
+    max-width: 1000px;
+    min-width: 150px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+    
+    h1#iff {
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    
+    
+    #algebra {
+        background-color: blue;
+        max-width: 500px;
+        min-width: 125px;
+        border-radius: 20%;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 2px;
+    }
+    
+    #geometria {
+        background-color: darkblue;
+        max-width: 500px;
+        min-width: 125px;
+        border-radius: 20%;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 2px;
+    }
+    
+    #portugues {
+        background-color: yellow;
+        max-width: 500px;
+        min-width: 125px;
+        border-radius: 20%;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 2px;
+    }
+    
+    #fisica {
+        background-color: purple;
+        max-width: 500px;
+        min-width: 125px;
+        border-radius: 20%;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 2px;
+    }
+    
+    #quimica {
+        background-color: orange;
+        max-width: 500px;
+        min-width: 125px;
+        border-radius: 20%;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 2px;
+    }
+    
+    #biologia {
+        background-color: lime;
+        max-width: 500px;
+        min-width: 125px;
+        border-radius: 20%;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 2px;
+    }
+    
+    #historia {
+        background-color: brown;
+        max-width: 500px;
+        min-width: 125px;
+        border-radius: 20%;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 2px;
+    }
+    
+    #geografia {
+        background-color: darkgreen;
+        max-width: 500px;
+        min-width: 125px;
+        border-radius: 20%;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 2px;
+    }
+    
+    a#iff {
+        color: white;
+        text-decoration: none;
+    }
+
+section.video {
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+section.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+h2#iff {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.playlist {
+    background-color: lightslategrey;
+        max-width: 500px;
+        min-width: 125px;
+        border-radius: 20px;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 20px;
+        text-align: center;
+}
+.playlist > h2 {
+    text-align: center;
+}
+
+a.playlist {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    margin: 10px;
+
+    max-width: 500px;
+    min-width: 125px;
+}

@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Nice';
+    src: url('fontes/nice_honey/Nice\ Honey.ttf') format(truetype), url('fontes/nice_honey/Nice\ Honey.otf') format(truetype);
+}
+
+
+body {
+    background-color: #041ADB;
+    font-size: 20px;
+    text-align: center;
+    background-image: url('imagens/index.bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+max-width: 1000px;
+min-width: 150px;
+margin: auto;
+background-color: white;
+padding: 10px;
+border-radius: 15px;
+text-align: center;
+margin-bottom: 10px;
+}
+
+main {
+    max-width: 1000px;
+    min-width: 150px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+strong {
+    color: #074BF2;
+}
+
+p {
+    font-weight: 700;
+}
+
+div {
+ text-align: center;
+ padding: 10px;
+ margin: auto;
+ margin:  10px;
+}
+
+#algebra {
+    background-color: blue;
+    max-width: 500px;
+    min-width: 125px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#geometria {
+    background-color: darkblue;
+    max-width: 500px;
+    min-width: 125px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#portugues {
+    background-color: yellow;
+    max-width: 500px;
+    min-width: 125px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#fisica {
+    background-color: purple;
+    max-width: 500px;
+    min-width: 125px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#quimica {
+    background-color: orange;
+    max-width: 500px;
+    min-width: 125px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#biologia {
+    background-color: lime;
+    max-width: 500px;
+    min-width: 125px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#historia {
+    background-color: brown;
+    max-width: 500px;
+    min-width: 125px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#geografia {
+    background-color: darkgreen;
+    max-width: 500px;
+    min-width: 125px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+  a.playlist {
+    color: white;
+    font-size: 40px;
+}
+
+div > h2 {
+    color: white;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+section.video {
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+section.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    max-width: 1000px;
+    min-width: 150px;
+    margin: 0px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+    footer > a {
+        color: dodgerblue;
+    }
+
+    footer > a:hover {
+        color: dodgerblue;
+        text-decoration: underline;
+        text-decoration-color: cornflowerblue;
+    }
