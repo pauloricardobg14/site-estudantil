@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+body {
+    background: url('imagens/fundoescolar.jpg') top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+main {
+    max-width: 1000px;
+    min-width: 150px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+}
